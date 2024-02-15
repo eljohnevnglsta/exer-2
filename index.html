@@ -1,19 +1,28 @@
+<!--
+Eljohn Y. Evangelista
+CMSC 100 - UV2L
+Exercise 2 (.html file)
+ -->
+
 <!DOCTYPE html>
 
 <html>
   <head>
-    <title> Eljohn's Portfolio </title>
+    <!-- Title and CSS Linking -->
+    <title> Eljohn's Portfolio </title>   
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 
   <body>
+    <!-- Main Flexbox -->
     <div class="flex-container">
-
+      <!-- Flex Box for the Logo and Navigation Pane -->
       <div class="flex-item" id="header">
         <img src="asset_images/logo.png" id="logo"> 
         <br>
         ELJOHN EVANGELISTA
         <div class="navigation">
+          <!-- Text were treated as buttons linked to the sections inside the page -->
           <a href="#header"><div>home</div></a>
           <a href="#projects"><div>projects</div></a>
           <a href="#about"><div>about</div></a>      
@@ -21,13 +30,18 @@
         </div>
       </div>
 
+      <!-- Flexbox for the featured image -->
       <div class="flex-item">
         <img src="asset_images/featured.jpg" class="featured">
       </div>
 
+      <!-- Flexbox for the Projects Tab -->
       <div class="flex-item" id="projects">
         <div style="margin-top: 5px;">PREVIOUS PROJECTS</div>
         <div class="projects">
+          <!-- Images for each project was inserted -->
+          <!-- Span was used to Properly Label each image. This wraps the text to not create a newline of content -->
+          <!-- Links to the projects were also clickable in the text -->
           <div class="projectsItem"> 
             <img src="project_images/CMSC 12.png">
             <a href="https://drive.google.com/drive/folders/156Z-5MI-HJC6zrP-t9Oe7EB9m20XEmdr?usp=drive_link">
@@ -51,8 +65,10 @@
         </div>
       </div>
 
+      <!-- Flexbox for Skills and Autobiography -->
       <div class="flex-item" id="about">
         <div class="SkillsAuto">
+          <!-- The flexbox was divided into 2 parts (Skills and Biography) via another Flexbox -->
           <div class="sub">
             Skills
             <p class="skills"> Graphic Design <br>
@@ -73,6 +89,7 @@
         </div>
       </div>
 
+      <!-- Flexbox for Contact Details/Footer -->
       <div class="flex-item" id="contact">
         <div class="footer">
           <img src="asset_images/profile.png" class="profile">
@@ -80,6 +97,7 @@
         <br>
         <div>
           Contact Details
+           <!-- Contact Details in Paragraph Form -->
           <p class="contact">Eljohn Y. Evangelista <br>
             Sample Address, City, Province, Philippines <br>
             +639000000000 <br>
@@ -87,6 +105,7 @@
           </p>
         </div>
         <br>
+        <!-- href to go back on top -->
         <a href="#header"><div class="top"> BACK TO TOP </div></a>
       </div>
 
