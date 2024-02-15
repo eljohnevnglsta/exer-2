@@ -14,9 +14,10 @@
         <br>
         ELJOHN EVANGELISTA
         <div class="navigation">
-          <div class="navigationItem">home</div>
-          <div class="navigationItem">projects</div>
-          <div class="navigationItem">about</div>         <div class="navigationItem">contact</div>
+          <a href="#header"><div>home</div></a>
+          <a href="#projects"><div>projects</div></a>
+          <a href="#about"><div>about</div></a>      
+          <a href="#contact"><div>contact</div></a>
         </div>
       </div>
 
@@ -24,29 +25,33 @@
         <img src="featured.jpg" class="featured">
       </div>
 
-      <div class="flex-item">
-        PREVIOUS PROJECTS
+      <div class="flex-item" id="projects">
+        <div style="margin-top: 5px;">PREVIOUS PROJECTS</div>
         <div class="projects">
-
           <div class="projectsItem"> 
             <img src="CMSC 12.png">
-            <span>CMSC 12: Introduction to Programming</span>
+            <a href="https://drive.google.com/drive/folders/156Z-5MI-HJC6zrP-t9Oe7EB9m20XEmdr?usp=drive_link">
+              <span>CMSC 12: Introduction to Programming</span>
+            </a>
           </div>
 
           <div class="projectsItem"> 
             <img src="CMSC 22.png">
-            <span>CMSC 22: Object-Oriented Programming</span>
+            <a href="https://github.com/eljohnevnglsta/Barrier-Basher">
+              <span>CMSC 22: Object-Oriented Programming</span>
+            </a>
           </div>
 
           <div class="projectsItem"> 
             <img src="CMSC 150.png">
-            <span>CMSC 150: Numerical and Symbolic Computation</span>
+            <a href="https://drive.google.com/drive/folders/1C_HQ5cuwsxROUjJH3iMULBGa6tgLjbwy?usp=sharing">
+              <span>CMSC 150: Numerical and Symbolic Computation</span>
+            </a>
           </div>
-
         </div>
       </div>
 
-      <div class="flex-item">
+      <div class="flex-item" id="about">
         <div class="SkillsAuto">
           <div class="sub">
             Skills
@@ -58,7 +63,8 @@
           </div>
           <div class="sub">
             Autobiography
-            <p class="biography"> Eljohn is a BS Computer Science Sophomore from University
+            <p class="biography"> 
+              Eljohn is a BS Computer Science Sophomore from University
               of the Philippines Los Banos. He graduated from San Pablo 
               City Science High School with Highest Honors. His field of
               interest revolves around FrontEnd and Game Development. 
@@ -67,7 +73,7 @@
         </div>
       </div>
 
-      <div class="flex-item" id="bottom">
+      <div class="flex-item" id="contact">
         <div class="footer">
           <img src="profile.png" class="profile">
         </div>
@@ -81,7 +87,7 @@
           </p>
         </div>
         <br>
-        <div class="top"> BACK TO TOP </div>
+        <a href="#header"><div class="top"> BACK TO TOP </div></a>
       </div>
 
     </div>
