@@ -35,6 +35,14 @@
     height: auto;
     display: block;
     margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.projectsItem {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
 }
 
 .navigation {
@@ -52,6 +60,7 @@
     display: flex;
     justify-content: space-around;
     font-family: sub;
+    flex-wrap: wrap;
 }
 
 .flex-item {
@@ -59,10 +68,9 @@
     font-size: larger;
     width: 100%;
     height: auto;
-    flex-direction: row;
-    border-style: solid;
-    border-width: 2px;
-    border-color:red;
+    border-width: 5px;
+    border-color: cadetblue;
+    flex-direction: column;
 }
 
 #header {
@@ -76,4 +84,58 @@
     margin-bottom: -10px;
     width: 30px;
     height: 60px;
+}
+
+.projectsItem span {
+    display: block;
+}
+
+.projectsItem img {
+    width: 100%; /* Set image width to 100% */
+    height: auto; /* Let the height adjust automatically */
+    object-fit: cover; /* Ensure the image fills the specified dimensions */
+    border: 1px solid #ccc; /* Optional: add border for better visualization */
+}
+
+.SkillsAuto {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+.skills {
+    margin-top: 0px;
+    margin-bottom: 3px;
+    font-family: sub;
+}
+
+.biography {
+    margin-top: 0px;
+    margin-bottom: 3px;
+    font-family: thin;
+}
+
+.sub {
+    min-width: 50%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact {
+    margin-top: 0px;
+    font-family: sub;
+    font-size: medium;
+}
+
+.profile {
+    margin-top: 10px;
+    max-width: 30%;
+}
+
+.top{
+    margin-bottom: 5px;
 }
