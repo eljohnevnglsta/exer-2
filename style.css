@@ -1,16 +1,16 @@
 @font-face {
     font-family: "heading";
-    src: url("heading.otf") format("opentype"); 
+    src: url("fonts/heading.otf") format("opentype"); 
 }
 
 @font-face {
     font-family: "sub";
-    src: url("sub.otf") format("opentype"); 
+    src: url("fonts/sub.otf") format("opentype"); 
 }
 
 @font-face {
     font-family: "thin";
-    src: url("thin.otf") format("opentype"); 
+    src: url("fonts/thin.otf") format("opentype"); 
 }
 
 * {
